@@ -1,0 +1,6 @@
+.vercel/
+.env
+.env.*
+node_modules/
+artifacts/
+*.log
