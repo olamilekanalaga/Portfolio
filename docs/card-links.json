@@ -21,18 +21,20 @@
     "wallchain": "https://x.com/wallchain",
     "elsa": "https://x.com/HeyElsaAI",
     "klout": "https://x.com/kloutgg",
-    "mbg": null
+    "mbg": "https://x.com/multibank_io"
   },
-  "todos": {
-    "mbg": "TODO: Owner must confirm official MBG X profile. Public references were insufficient to confidently match the supplied campaign asset.",
-    "dune": "TODO: No existing Dune profile URL in this checkout; preserve if supplied."
-  },
+  "todos": {},
   "sources": {
     "print3r": "https://app.galxe.com/quest/PRINT3R/GCaJEt4or5?refer=space_home",
     "breshna": "https://breshna.io/",
     "elsa": "https://www.heyelsa.ai/",
     "wallchain": "https://x.com/CryptoEgeHan/status/2026908230476070975 (quotes official Wallchain account)",
     "klout": "https://solanaanz.org/articles/klout-getting-paid-in-sol-for-what-you-post-on-x",
-    "other": "User-supplied handoff map; existing Superteam live directory URL retained."
+    "other": "User-supplied handoff map; existing Superteam live directory URL retained.",
+    "mbg": "https://tradfi.multibankgroup.com/th/about/company-news/multibank-group-confirms-mbg-token-listings-on-mexc-and-gate-io-on-tge-day-in-addition-to-multi-bank-io-and-uniswap",
+    "dune": "Owner-supplied profile URL"
+  },
+  "identity_links": {
+    "dune": "https://dune.com/u/big_ola01"
   }
 }
