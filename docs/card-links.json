@@ -21,7 +21,10 @@
     "wallchain": "https://x.com/wallchain",
     "elsa": "https://x.com/HeyElsaAI",
     "klout": "https://x.com/kloutgg",
-    "mbg": "https://x.com/multibank_io"
+    "mbg": "https://x.com/multibank_io",
+    "edenfi": "https://x.com/edenfi_onchain",
+    "idos": "https://x.com/idOS_network",
+    "anoma": "https://x.com/anoma"
   },
   "todos": {},
   "sources": {
@@ -32,7 +35,10 @@
     "klout": "https://solanaanz.org/articles/klout-getting-paid-in-sol-for-what-you-post-on-x",
     "other": "User-supplied handoff map; existing Superteam live directory URL retained.",
     "mbg": "https://tradfi.multibankgroup.com/th/about/company-news/multibank-group-confirms-mbg-token-listings-on-mexc-and-gate-io-on-tge-day-in-addition-to-multi-bank-io-and-uniswap",
-    "dune": "Owner-supplied profile URL"
+    "dune": "Owner-supplied profile URL",
+    "edenfi": "Owner-supplied official X URL and original image: 2-Photo-2.jpg",
+    "idos": "Owner-supplied official X URL and original image: 1-Photo-1.jpg",
+    "anoma": "Owner-supplied official X URL and original image: 3-Photo-3.jpg"
   },
   "identity_links": {
     "dune": "https://dune.com/u/big_ola01"
