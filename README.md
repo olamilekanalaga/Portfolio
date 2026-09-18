@@ -1,6 +1,8 @@
 # Olamilekan Alaga — Portfolio
 
-Product & On-chain Analyst | KOL.
+Product & On-chain Data Analyst | Research-led KOL.
+
+Light, analyst case-study design with four featured research projects and original-colour local assets.
 
 This repository contains the current static portfolio and its original local images. It preserves the research projects, ambassador cards, non-clickable campaign icons, owned community, bot results PDF, page-2 report preview, and light-mode Superteam snapshot.
 
