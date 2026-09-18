@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-09-18",
+  "destinations": {
+    "aladdin-terminal": "https://aladdin-ui-alpha.vercel.app",
+    "aladdin-bot": "https://t.me/+19-KzcnhdxoyMzJk",
+    "nansen": "https://x.com/nansen_ai",
+    "debridge": "https://x.com/deBridge",
+    "superteam": "https://superteamuk-startups-analytics.vercel.app/startups",
+    "send": "https://x.com/Send",
+    "breshna": "https://x.com/breshnagame",
+    "mode": "https://x.com/modenetwork",
+    "print3r": "https://x.com/PRINT3Rxyz",
+    "banters": "https://x.com/Thebanters_",
+    "kaito": "https://x.com/KaitoAI",
+    "caldera": "https://x.com/Calderaxyz",
+    "huma": "https://x.com/humafinance",
+    "loudio": "https://x.com/stayloudio",
+    "soon": "https://x.com/soon_svm",
+    "sonic": "https://x.com/SonicSVM",
+    "notcoin": "https://x.com/thenotcoin",
+    "wallchain": "https://x.com/wallchain",
+    "elsa": "https://x.com/HeyElsaAI",
+    "klout": "https://x.com/kloutgg",
+    "mbg": null
+  },
+  "todos": {
+    "mbg": "TODO: Owner must confirm official MBG X profile. Public references were insufficient to confidently match the supplied campaign asset.",
+    "dune": "TODO: No existing Dune profile URL in this checkout; preserve if supplied."
+  },
+  "sources": {
+    "print3r": "https://app.galxe.com/quest/PRINT3R/GCaJEt4or5?refer=space_home",
+    "breshna": "https://breshna.io/",
+    "elsa": "https://www.heyelsa.ai/",
+    "wallchain": "https://x.com/CryptoEgeHan/status/2026908230476070975 (quotes official Wallchain account)",
+    "klout": "https://solanaanz.org/articles/klout-getting-paid-in-sol-for-what-you-post-on-x",
+    "other": "User-supplied handoff map; existing Superteam live directory URL retained."
+  }
+}
