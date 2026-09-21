@@ -563,3 +563,61 @@ section { scroll-margin-top: 20px; }
     grid-template-columns: 1fr;
   }
 }
+
+/* Compact education section. */
+.education {
+  padding-block: 36px;
+  border-top: 1px solid var(--line);
+}
+
+.education-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 18px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 8px 25px rgba(15, 23, 42, .04);
+}
+
+.education-card h2 {
+  font-size: clamp(24px, 2.3vw, 32px);
+  line-height: 1.15;
+  letter-spacing: -.035em;
+}
+
+.education-degree {
+  margin-top: 7px;
+  color: #1d293d;
+  font-weight: 700;
+}
+
+.education-meta {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.education-meta span {
+  display: inline-flex;
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: #35527a;
+  font-size: 12px;
+  font-weight: 720;
+}
+
+@media (max-width: 560px) {
+  .education-card {
+    display: block;
+    padding: 18px;
+  }
+  .education-meta {
+    margin-top: 16px;
+    text-align: left;
+  }
+}
