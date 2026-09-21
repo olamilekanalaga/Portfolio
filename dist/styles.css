@@ -454,7 +454,7 @@ section { scroll-margin-top: 20px; }
 .data-work > .section { padding-block: 24px; }
 
 
-/* Positioning hierarchy: distribution activity connected to data understanding. */
+/* Section hierarchy support. */
 .subsection-heading {
   margin: 0 0 18px;
   font-size: 18px;
@@ -467,68 +467,8 @@ section { scroll-margin-top: 20px; }
   border-top: 1px solid var(--line);
 }
 
-.activity-bridge {
-  display: grid;
-  grid-template-columns: minmax(0, .9fr) minmax(420px, 1.1fr);
-  align-items: center;
-  gap: 40px;
-  margin-block: 8px;
-  padding: 30px;
-  border: 1px solid #cfe5dc;
-  border-radius: 12px;
-  background: var(--soft);
-}
-
-.activity-bridge h2 {
-  margin-top: 8px;
-  font-size: clamp(26px, 2.5vw, 36px);
-  line-height: 1.1;
-  letter-spacing: -.04em;
-}
-
-.activity-bridge p:last-child { margin-top: 12px; }
-.activity-bridge strong { color: var(--ink); }
-
-.activity-flow {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.activity-flow li {
-  position: relative;
-  min-width: 0;
-  color: var(--accent);
-  font-size: 14px;
-  font-weight: 760;
-  text-align: center;
-}
-
-.activity-flow li:not(:last-child)::after {
-  content: "→";
-  position: absolute;
-  right: -14px;
-  color: #7ca99b;
-}
-
-@media (max-width: 900px) {
-  .activity-bridge { grid-template-columns: 1fr; gap: 24px; }
-}
-
 @media (max-width: 560px) {
-  .activity-bridge { padding: 22px 18px; }
   .case-card { min-height: 0; }
-  .activity-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-  .activity-flow li {
-    padding: 10px 8px;
-    border-left: 3px solid var(--accent-2);
-    background: var(--surface);
-    text-align: left;
-  }
-  .activity-flow li::after { display: none; }
 }
 
 
