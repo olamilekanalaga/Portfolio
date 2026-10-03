@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-09-18",
+  "checked_on": "2026-10-03",
   "destinations": {
     "aladdin-terminal": "https://aladdin-ui-alpha.vercel.app",
     "aladdin-bot": "https://t.me/+19-KzcnhdxoyMzJk",
@@ -24,7 +24,11 @@
     "mbg": "https://x.com/multibank_io",
     "edenfi": "https://x.com/edenfi_onchain",
     "idos": "https://x.com/idOS_network",
-    "anoma": "https://x.com/anoma"
+    "anoma": "https://x.com/anoma",
+    "ifagrithm-website": "https://www.ifagrithm.xyz",
+    "ifagrithm-x": "https://x.com/ifagrithm",
+    "degen-community": "https://t.me/+8ULbfzVjMas0ZDhk",
+    "banters-telegram": "https://t.me/+4lr_3GjCyXc5OTc0"
   },
   "todos": {},
   "sources": {
@@ -38,7 +42,10 @@
     "dune": "Owner-supplied profile URL",
     "edenfi": "Owner-supplied official X URL and original image: 2-Photo-2.jpg",
     "idos": "Owner-supplied official X URL and original image: 1-Photo-1.jpg",
-    "anoma": "Owner-supplied official X URL and original image: 3-Photo-3.jpg"
+    "anoma": "Owner-supplied official X URL and original image: 3-Photo-3.jpg",
+    "ifagrithm": "Owner-supplied official website, X handle and original yellow logo.",
+    "degen-community": "Owner-supplied Telegram invite, subscriber count and screenshot.",
+    "banters-telegram": "Owner-supplied Telegram invite, member count and green community image."
   },
   "identity_links": {
     "dune": "https://dune.com/u/big_ola01"
