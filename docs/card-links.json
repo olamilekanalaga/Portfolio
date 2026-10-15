@@ -1,13 +1,33 @@
 {
-  "checked_on": "2026-10-03",
+  "checked_on": "2026-10-15",
+  "repository": "https://github.com/olamilekanalaga/Portfolio",
+  "deployment": {
+    "vercel_project_name": "portfolio",
+    "production_branch": "main",
+    "custom_domain": "https://olamilekanalaga.co.uk"
+  },
+  "sections": {
+    "campaigns": "#campaigns",
+    "kol_work": "#kol-work",
+    "data_products": "#work",
+    "legacy_data_alias": "#research",
+    "community": "#community",
+    "about": "#about",
+    "contact": "#contact",
+    "ifagrithm_supporting_project": "#current"
+  },
   "destinations": {
     "aladdin-terminal": "https://aladdin-ui-alpha.vercel.app",
     "aladdin-bot": "https://t.me/+19-KzcnhdxoyMzJk",
+    "aladdin-bot-report": "assets/reports/Aladdin_Bot_Results_Report.pdf",
+    "technical-cv": "assets/downloads/Product_Onchain_Data_Analyst_CV.docx",
     "nansen": "https://x.com/nansen_ai",
     "debridge": "https://x.com/deBridge",
     "superteam": "https://superteamuk-startups-analytics.vercel.app/startups",
     "send": "https://x.com/Send",
+    "send-website": "https://send.app",
     "breshna": "https://x.com/breshnagame",
+    "breshna-website": "https://breshna.io/",
     "mode": "https://x.com/modenetwork",
     "print3r": "https://x.com/PRINT3Rxyz",
     "banters": "https://x.com/Thebanters_",
@@ -17,7 +37,7 @@
     "loudio": "https://x.com/stayloudio",
     "soon": "https://x.com/soon_svm",
     "sonic": "https://x.com/SonicSVM",
-    "notcoin": "https://x.com/thenotcoin",
+    "notcoin": "https://x.com/notcoin",
     "wallchain": "https://x.com/wallchain",
     "elsa": "https://x.com/HeyElsaAI",
     "klout": "https://x.com/kloutgg",
@@ -30,24 +50,29 @@
     "degen-community": "https://t.me/+8ULbfzVjMas0ZDhk",
     "banters-telegram": "https://t.me/+4lr_3GjCyXc5OTc0"
   },
-  "todos": {},
-  "sources": {
-    "print3r": "https://app.galxe.com/quest/PRINT3R/GCaJEt4or5?refer=space_home",
-    "breshna": "https://breshna.io/",
-    "elsa": "https://www.heyelsa.ai/",
-    "wallchain": "https://x.com/CryptoEgeHan/status/2026908230476070975 (quotes official Wallchain account)",
-    "klout": "https://solanaanz.org/articles/klout-getting-paid-in-sol-for-what-you-post-on-x",
-    "other": "User-supplied handoff map; existing Superteam live directory URL retained.",
-    "mbg": "https://tradfi.multibankgroup.com/th/about/company-news/multibank-group-confirms-mbg-token-listings-on-mexc-and-gate-io-on-tge-day-in-addition-to-multi-bank-io-and-uniswap",
-    "dune": "Owner-supplied profile URL",
-    "edenfi": "Owner-supplied official X URL and original image: 2-Photo-2.jpg",
-    "idos": "Owner-supplied official X URL and original image: 1-Photo-1.jpg",
-    "anoma": "Owner-supplied official X URL and original image: 3-Photo-3.jpg",
-    "ifagrithm": "Owner-supplied official website, X handle and original yellow logo.",
-    "degen-community": "Owner-supplied Telegram invite, subscriber count and screenshot.",
-    "banters-telegram": "Owner-supplied Telegram invite, member count and green community image."
-  },
   "identity_links": {
+    "linkedin": "https://www.linkedin.com/in/olamilekanalaga",
+    "x": "https://x.com/Ola_Crrypt",
+    "telegram": "https://t.me/ola_crrypt",
     "dune": "https://dune.com/u/big_ola01"
+  },
+  "campaign_reference_sources": {
+    "repository": "https://github.com/olamilekanalaga/Ifa-Repo",
+    "breshna": [
+      "src/breshnaHistorical.js",
+      "src/historicalStudio.js",
+      "docs/BRESHNA_EVIDENCE.md"
+    ],
+    "send": [
+      "src/sendHistorical.js",
+      "docs/SEND_EVIDENCE.md"
+    ],
+    "print3r": [
+      "src/print3rHistorical.js",
+      "docs/PRINT3R_EVIDENCE.md"
+    ]
+  },
+  "todos": {
+    "education": "Reconcile website September 2024-July 2026 wording with unchanged CV 2024-2025 wording."
   }
 }

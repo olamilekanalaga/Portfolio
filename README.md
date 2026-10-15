@@ -1,25 +1,55 @@
-# Olamilekan Alaga — Portfolio
+# Olamilekan Alaga — Personal Portfolio
 
-Product & On-chain Data Analyst | Research-led Growth / KOL Network.
+A static personal portfolio presenting two distinct areas of Web3 experience:
 
-Light, analyst case-study design with separate research-led products and analyst work and original-colour local assets.
+- Campaign execution, KOL engagements, community ownership and creator networks
+- Data research, on-chain analysis and analytical product development
 
-This repository contains the current static portfolio and its original local images. It preserves the research projects, ambassador cards, linked campaign icons, owned community, bot results PDF, page-2 report preview, and light-mode Superteam snapshot.
+The portfolio keeps programme-level campaign figures separate from Olamilekan’s documented contribution and qualifies reported or estimated figures close to the relevant metrics.
+
+## Structure
+
+1. Introduction and portrait
+2. Campaign Execution
+3. Other KOL Engagements
+4. Data, Research & Products
+5. Community & Network
+6. About Me and Contact
+
+IFAGRITHM appears as a supporting current-build prototype inside Data, Research & Products. It is not presented as the owner of the historical Breshna, SEND or PRINT3R work.
 
 ## Local preview
 
-Run `python -m http.server 4177 --directory dist`, then open http://localhost:4177.
+Run:
+
+```powershell
+python -m http.server 4177 --directory dist
+```
+
+Then open [http://localhost:4177](http://localhost:4177).
+
+## Verification
+
+This repository has no package-manager build, lint or test scripts. Verification uses:
+
+- Browser checks at 1440px, 768px, 390px and 320px
+- Native `details` keyboard/touch checks for campaign case studies
+- Local asset, route, download and link validation
+- Console-error and horizontal-overflow checks
+- Desktop and mobile screenshot inspection
 
 ## Vercel
 
-Framework: Other. Output directory: `dist`. No dependency installation or build is required. The included `vercel.json` configures these settings. Only `dist` is publicly served.
+Framework: Other. Output directory: `dist`. No dependency installation or build is required. The included `vercel.json` preserves these settings. Only `dist` is publicly served.
 
-The image previews are supplied snapshots, not live metrics. The bot PDF preserves its original analysis limitations; milestone outcomes are not executed trading returns.
+The linked local project metadata identifies the existing Vercel project as `portfolio`. The custom production domain is `olamilekanalaga.co.uk`; domain and deployment status must be verified after a production push.
 
-This public delivery copy excludes internal handoffs, extraction prompts, reference archives, databases, secrets and private hosting configuration.
+## Content boundaries
 
-## Card destinations
+Campaign figures are programme-level records unless explicitly described otherwise. They are not combined into a total spend, payout, participant or audience claim. Historical campaign records are not IFAGRITHM client engagements.
 
-`docs/card-links.json` records approved destinations, source checks and the owner-confirmed Dune profile. It is outside the publicly served `dist` directory. Aladdin terminal and bot have separate links; the bot PDF and both screenshot previews remain accessible. Print3r is a full ambassador role, not a campaign icon.
+The Aladdin terminal and alert bot remain separate. Bot milestones are observed export outcomes, not realised returns. Superteam and Aladdin screenshots remain supplied snapshots rather than live metrics.
 
-This static repository has no package manager build, lint or test script. Verification uses browser checks for responsive layout, original local images, card destinations and link semantics.
+The technical CV is preserved unchanged at `dist/assets/downloads/Product_Onchain_Data_Analyst_CV.docx`.
+
+See `docs/CAMPAIGN_CONTENT_NOTES.md` for campaign sources, qualifications and known discrepancies. `docs/card-links.json` records the approved public destinations.

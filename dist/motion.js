@@ -5,21 +5,15 @@
   const revealSelectors = [
     '.hero-copy > *',
     '.portrait-card',
-    '.current-kicker',
-    '.ifagrithm-card',
-    '.trusted',
     '.section-heading > *',
-    '.data-summary-grid > *',
-    '.screenshot-projects > *',
-    '.subsection-heading',
-    '.ambassador-grid > *',
-    '.campaign-heading',
-    '.campaign-strip > *',
-    '.community-grid > *',
-    '.skills > .section-kicker',
-    '.skills > h2',
+    '.campaign-case-grid > *',
+    '.kol-grid > *',
+    '.data-grid > *',
+    '.skills-inline > *',
     '.skill-grid > *',
-    '.education > *',
+    '.community-grid > *',
+    '.community-note',
+    '.about-grid > *',
     '.contact > *'
   ];
 
@@ -43,12 +37,12 @@
     const position = Math.max(0, siblings.indexOf(item));
 
     item.classList.add('reveal-item');
-    item.style.setProperty('--reveal-delay', Math.min(position * 70, 280) + 'ms');
+    item.style.setProperty('--reveal-delay', Math.min(position * 65, 260) + 'ms');
   });
 
   const motionSurfaces = [
     ...document.querySelectorAll(
-      '.linked-card, .community-evidence-card, .portrait-card, .education-card'
+      '.data-card, .community-evidence-card, .portrait-card, .about-card, .education-card'
     )
   ];
 
@@ -63,7 +57,7 @@
     });
   }, {
     rootMargin: '0px 0px -3% 0px',
-    threshold: 0.08
+    threshold: 0.06
   });
 
   items.forEach((item) => observer.observe(item));
@@ -80,14 +74,6 @@
         '--portrait-shift',
         Math.min(20, Math.max(0, scrollY * 0.04)) + 'px'
       );
-    }
-
-    const ifagrithmImage = document.querySelector('.ifagrithm-visual img');
-    if (ifagrithmImage) {
-      const rect = ifagrithmImage.getBoundingClientRect();
-      const distanceFromCenter = (innerHeight / 2) - (rect.top + rect.height / 2);
-      const shift = Math.min(18, Math.max(-18, distanceFromCenter * 0.035));
-      ifagrithmImage.style.setProperty('--ifagrithm-shift', shift + 'px');
     }
 
     ticking = false;
@@ -110,8 +96,8 @@
         const horizontal = (event.clientX - rect.left) / rect.width - 0.5;
         const vertical = (event.clientY - rect.top) / rect.height - 0.5;
 
-        surface.style.setProperty('--tilt-y', (horizontal * 5).toFixed(2) + 'deg');
-        surface.style.setProperty('--tilt-x', (-vertical * 5).toFixed(2) + 'deg');
+        surface.style.setProperty('--tilt-y', (horizontal * 4).toFixed(2) + 'deg');
+        surface.style.setProperty('--tilt-x', (-vertical * 4).toFixed(2) + 'deg');
       });
 
       surface.addEventListener('pointerleave', () => {
