@@ -1585,6 +1585,64 @@ section { scroll-margin-top: 20px; }
   }
 }
 
+/* Keep Mode descriptive; present the remaining KOL work as compact logo links. */
+.kol-grid {
+  display: block;
+}
+
+.mode-kol {
+  width: min(100%, 460px);
+  min-height: 78px;
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.kol-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 64px);
+  gap: 10px;
+}
+
+.kol-logo-grid .kol-card {
+  width: 64px;
+  height: 64px;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+
+.kol-logo-grid .kol-card img {
+  width: 42px;
+  height: 42px;
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+  .mode-kol {
+    width: 100%;
+    min-height: 72px;
+    display: flex;
+  }
+
+  .kol-logo-grid {
+    grid-template-columns: repeat(auto-fill, 60px);
+    gap: 8px;
+  }
+
+  .kol-logo-grid .kol-card {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    padding: 10px;
+  }
+
+  .kol-logo-grid .kol-card img {
+    width: 38px;
+    height: 38px;
+  }
+}
+
 /* Motion layer: scroll feedback, reveals and responsive interaction. */
 .scroll-progress {
   position: fixed;
