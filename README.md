@@ -5,7 +5,7 @@ A static personal portfolio presenting two distinct areas of Web3 experience:
 - Campaign execution, KOL engagements, community ownership and creator networks
 - Data research, on-chain analysis and analytical product development
 
-The portfolio keeps programme-level campaign figures separate from Olamilekan’s documented contribution and qualifies reported or estimated figures close to the relevant metrics.
+The campaign overview uses compact, factual reports. Programme-level figures are qualified close to the relevant metrics and remain separate from personal attribution.
 
 ## Structure
 
@@ -33,7 +33,7 @@ Then open [http://localhost:4177](http://localhost:4177).
 This repository has no package-manager build, lint or test scripts. Verification uses:
 
 - Browser checks at 1440px, 768px, 390px and 320px
-- Native `details` keyboard/touch checks for campaign case studies
+- Campaign metric-grid checks at desktop and mobile widths
 - Local asset, route, download and link validation
 - Console-error and horizontal-overflow checks
 - Desktop and mobile screenshot inspection

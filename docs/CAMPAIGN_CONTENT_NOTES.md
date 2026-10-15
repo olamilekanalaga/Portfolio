@@ -6,7 +6,7 @@ This note sits outside the publicly served `dist` directory. It records source b
 
 ## Contribution boundary
 
-The public portfolio uses the supported personal contribution wording **“Campaign coordination.”**
+The public campaign cards focus on programme facts and do not include a personal-contribution narrative. The underlying source boundary remains: Olamilekan Alaga described his contribution as **campaign coordination**, supported by the historical ambassador role context already recorded in the portfolio.
 
 Breshna, SEND and PRINT3R metrics describe programme-level scale, budgets, estimated reward value, reported spend or rules. They are not presented as outcomes individually generated, paid, reconciled or fully managed by Olamilekan Alaga.
 
