@@ -50,6 +50,6 @@ Campaign figures are programme-level records unless explicitly described otherwi
 
 The Aladdin terminal and alert bot remain separate. Bot milestones are observed export outcomes, not realised returns. Superteam and Aladdin screenshots remain supplied snapshots rather than live metrics.
 
-The technical CV is preserved unchanged at `dist/assets/downloads/Product_Onchain_Data_Analyst_CV.docx`.
+The current owner-supplied CV is served as a PDF at `dist/assets/downloads/Olamilekan_Alaga_CV.pdf`.
 
 See `docs/CAMPAIGN_CONTENT_NOTES.md` for campaign sources, qualifications and known discrepancies. `docs/card-links.json` records the approved public destinations.

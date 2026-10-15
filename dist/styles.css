@@ -1656,6 +1656,53 @@ section { scroll-margin-top: 20px; }
   }
 }
 
+/* Compact profile actions: platform marks plus a concise CV download. */
+.profile-actions {
+  gap: 8px;
+}
+
+.profile-actions .profile-icon,
+.profile-actions .profile-cv {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 52px;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+
+.profile-actions .profile-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.profile-actions .profile-icon[aria-label="Dune"] {
+  background: #111827;
+}
+
+.profile-actions .profile-cv {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+@media (max-width: 390px) {
+  .profile-actions .profile-icon,
+  .profile-actions .profile-cv {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    padding: 9px;
+  }
+
+  .profile-actions .profile-icon img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 /* Motion layer: scroll feedback, reveals and responsive interaction. */
 .scroll-progress {
   position: fixed;

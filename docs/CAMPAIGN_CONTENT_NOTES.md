@@ -162,12 +162,12 @@ The website currently records:
 - September 2024–July 2026
 - Merit
 
-The unchanged technical CV records:
+The owner-supplied replacement PDF records:
 
 - MSc Data Science and its Applications (Merit)
-- 2024–2025
+- No education dates on the education line
 
-The website value was preserved as instructed. The discrepancy remains unresolved and should be reconciled by the portfolio owner before a future CV update.
+The website continues to show September 2024–July 2026 as previously instructed. The prior DOCX was removed when the replacement PDF was supplied.
 
 ## Deployment and link checks
 
