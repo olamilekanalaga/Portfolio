@@ -175,4 +175,6 @@ External destinations were checked on 2026-10-15. All portfolio project and comm
 
 The legacy Notcoin destination `https://x.com/thenotcoin` returned 404. Notcoin's official socials page identifies `@notcoin`; `https://x.com/notcoin` returned 200 and replaced the stale link.
 
-The linked local Vercel metadata identifies project `portfolio` (`prj_ZSGPkM9oeqjh7l0ViibgnTEIFz0q`). The existing custom domain `https://olamilekanalaga.co.uk` served the pre-change production site before implementation. Production content must be checked again after the normal `main` push.
+The linked local Vercel metadata identifies project `portfolio` (`prj_ZSGPkM9oeqjh7l0ViibgnTEIFz0q`). Before implementation, `https://olamilekanalaga.co.uk` served the previous `main` content through Vercel.
+
+After the normal production push, the custom domain returned HTTP 200 with the new Campaign Execution, Other KOL Engagements and Data, Research & Products content. Desktop and mobile production checks found no broken images, console errors or horizontal overflow; the technical CV and bot report each returned HTTP 200.
