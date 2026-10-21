@@ -1732,8 +1732,74 @@ section { scroll-margin-top: 20px; }
   }
 }
 
-/* Directory-style data cards on small screens. Full details remain in the page. */
+/* Directory-style campaign and data cards on small screens. */
 @media (max-width: 560px) {
+  .campaign-section .campaign-case-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+    align-items: start;
+  }
+
+  .campaign-section .campaign-case {
+    min-width: 0;
+    border-radius: 11px;
+  }
+
+  .campaign-section .campaign-case-header {
+    grid-template-columns: 32px minmax(0, 1fr);
+    gap: 7px;
+    padding: 10px 10px 7px;
+  }
+
+  .campaign-section .campaign-case-header img {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+
+  .campaign-section .campaign-sector {
+    font-size: 7px;
+    line-height: 1.25;
+    letter-spacing: .04em;
+  }
+
+  .campaign-section .campaign-case h3 {
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 1.12;
+  }
+
+  .campaign-section .campaign-case-grid .metric-grid,
+  .campaign-section .campaign-case-grid .metric-grid-two,
+  .campaign-section .campaign-case-grid .metric-grid-three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px;
+    margin: 8px 10px 0;
+  }
+
+  .campaign-section .campaign-case-grid .metric-grid div {
+    padding: 6px;
+    border-radius: 7px;
+  }
+
+  .campaign-section .campaign-case-grid .metric-grid dt {
+    font-size: 7px;
+    line-height: 1.25;
+  }
+
+  .campaign-section .campaign-case-grid .metric-grid dd {
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.1;
+    overflow-wrap: anywhere;
+  }
+
+  .campaign-section .metric-note {
+    margin: 7px 10px 10px;
+    font-size: 8px;
+    line-height: 1.35;
+  }
+
   .data-work .data-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
@@ -1804,6 +1870,18 @@ section { scroll-margin-top: 20px; }
     height: 78px;
     min-height: 0;
     object-fit: contain;
+  }
+}
+
+@media (max-width: 340px) {
+  .campaign-section .campaign-case-grid .metric-grid,
+  .campaign-section .campaign-case-grid .metric-grid-two,
+  .campaign-section .campaign-case-grid .metric-grid-three {
+    grid-template-columns: 1fr;
+  }
+
+  .campaign-section .campaign-case-grid .metric-grid dd {
+    overflow-wrap: normal;
   }
 }
 
