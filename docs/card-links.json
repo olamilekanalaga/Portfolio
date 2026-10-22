@@ -11,7 +11,6 @@
     "kol_work": "#kol-work",
     "data_products": "#work",
     "legacy_data_alias": "#research",
-    "community": "#community",
     "about": "#about",
     "contact": "#contact",
     "ifagrithm_supporting_project": "#current"
@@ -47,9 +46,7 @@
     "anoma": "https://x.com/anoma",
     "axis-robotics": "https://x.com/axisrobotics",
     "ifagrithm-website": "https://www.ifagrithm.xyz",
-    "ifagrithm-prototype": "https://ifagrithm-demo.vercel.app/#/access",
-    "degen-community": "https://t.me/+8ULbfzVjMas0ZDhk",
-    "banters-telegram": "https://t.me/+4lr_3GjCyXc5OTc0"
+    "ifagrithm-prototype": "https://ifagrithm-demo.vercel.app/#/access"
   },
   "identity_links": {
     "linkedin": "https://www.linkedin.com/in/olamilekanalaga",

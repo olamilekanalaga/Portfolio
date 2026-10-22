@@ -2,7 +2,7 @@
 
 A static personal portfolio presenting two distinct areas of Web3 experience:
 
-- Campaign execution, KOL engagements, community ownership and creator networks
+- Campaign execution, KOL engagements and creator networks
 - Data research, on-chain analysis and analytical product development
 
 The campaign overview uses compact, factual reports. Programme-level figures are qualified close to the relevant metrics and remain separate from personal attribution.
@@ -13,8 +13,7 @@ The campaign overview uses compact, factual reports. Programme-level figures are
 2. Campaign Execution
 3. Other KOL Engagements
 4. Data, Research & Products
-5. Community & Network
-6. About Me and Contact
+5. About Me and Contact
 
 IFAGRITHM appears as a supporting current-build prototype inside Data, Research & Products. It is not presented as the owner of the historical Breshna, SEND or PRINT3R work.
 

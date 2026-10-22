@@ -149,10 +149,6 @@ No synthetic campaign catalogue entries from IFAGRITHM were imported.
 - Bot report figures remain observed export outcomes rather than realised returns or win rates.
 - IFAGRITHM is a supporting current-build prototype. Historical records remain separated from illustrative product fixtures.
 
-## Community boundaries
-
-Degen Community and The Banters audience values are labelled supplied snapshots because no observation date was provided. They are not summed or presented as guaranteed campaign participation.
-
 ## Education discrepancy
 
 The website currently records:
