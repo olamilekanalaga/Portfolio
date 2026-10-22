@@ -1685,6 +1685,69 @@ section { scroll-margin-top: 20px; }
   }
 }
 
+/* Keep both community records visible together on small screens without losing their details. */
+@media (max-width: 700px) {
+  .community-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .community-visual {
+    height: 112px;
+  }
+
+  .community-content {
+    padding: 13px 11px 14px;
+  }
+
+  .community-role {
+    font-size: 9px;
+  }
+
+  .community-content h3 {
+    margin-top: 5px;
+    font-size: 17px;
+    line-height: 1.08;
+  }
+
+  .community-audience {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .community-content > p:not(.community-role):not(.community-audience) {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.45;
+  }
+
+  .community-actions {
+    margin-top: 12px;
+    gap: 6px;
+  }
+
+  .community-actions a {
+    padding: 7px 8px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 340px) {
+  .community-visual {
+    height: 94px;
+  }
+
+  .community-content {
+    padding-inline: 9px;
+  }
+
+  .community-content h3 {
+    font-size: 15px;
+  }
+}
+
 /* Compact profile actions: platform marks plus a concise CV download. */
 .profile-actions {
   gap: 8px;
